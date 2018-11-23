@@ -168,7 +168,6 @@ function errorFormFieldDisplay() {
         errorFieldsHLForm += "- Advice Outcome must be Referral or Referral - CW Update\n";
     };
 };
-
 function displayError () {
     if (errorFieldsHLForm.length || errorFieldsHLPerson.length) {
         console.log(errorFieldsHLForm + "\n" + errorFieldsHLPerson);
